@@ -1,8 +1,18 @@
 #HSLIDE
 
-## Pycon-fr 2016
+## Introduction to Making & Prototyping
 
-Python monkey-patching in production.
+Raspberry Pi & Electronics
+
+<img src="images/raspberry_pi_new_3.jpg" height="300"/>
+
+#VSLIDE
+
+## Instructors
+
+* Dr. Jing S Pang, j.pang10@alumni.imperial.ac.uk
+* Dr. Ariadna Blanca Romero, ablancar@ic.ac.uk, @starignus
+* Raj Shaha,rajnikant.shah@imperial.ac.uk
 
 #HSLIDE
 
