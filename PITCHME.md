@@ -33,7 +33,7 @@ https://github.com/Starignus/RPIGPIO
 
 <li class="fragment" data-fragment-index="4">And generates RDD[<span style="color:gray">OCPUResult</span>]</li>
 
-<li class="fragment" data-fragment-index="5">And generates RDD[<span style="color:gray">OCPUResult</span>]</li>
+<li class="fragment" data-fragment-index="5">And generates RDD[<span style="color:blue">OCPUResult</span>]</li>
 </ol>
 
 <span class="fragment" data-fragment-index="6" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the <a target="_blank" href="https://github.com/onetapbeyond/opencpu-r-executor">opencpu-r-executor</a> library.</span>
