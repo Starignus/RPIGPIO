@@ -26,8 +26,6 @@ https://github.com/Starignus/RPIGPIO
 
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
-<span class="fragment" data-fragment-index="6" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
-
 <ol>
 <li class="fragment" data-fragment-index="2">New `analyze` operation on RDD[<span style="color:gray">OCPUTask</span>]</li>
 
