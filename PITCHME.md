@@ -10,9 +10,15 @@ Raspberry Pi & Electronics
 
 ## Instructors
 
-* Dr. Jing S Pang, j.pang10@alumni.imperial.ac.uk
-* Dr. Ariadna Blanca Romero, ablancar@ic.ac.uk, @starignus
-* Raj Shaha,rajnikant.shah@imperial.ac.uk
+* Dr. Jing S Pang: __j.pang10@alumni.imperial.ac.uk__
+* Dr. Ariadna Blanca Romero: __ablancar@ic.ac.uk__
+* Raj Shaha: __rajnikant.shah@imperial.ac.uk__
+
+#VSLIDE
+
+MATERIAL AND SOURCE CODE AVAILABLE
+
+https://github.com/Starignus/RPIGPIO
 
 #HSLIDE
 
