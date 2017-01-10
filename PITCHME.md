@@ -24,8 +24,8 @@ https://github.com/Starignus/RPIGPIO
 
 ## Programme session 1
 
-* What is Raspberry
-* Hardware
+* [What is Raspberry?](/Session1/Introduction.md)
+  * Hardware
   * GPIO
   * Digital
 * Familiarity with Raspbian
