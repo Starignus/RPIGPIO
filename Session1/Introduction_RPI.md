@@ -33,4 +33,17 @@ We will be working with the **RPi 3 Model B** that was launched in February 2016
 
 <img src="RPI2B.png" alt="rpiboard2B" style="width: 500px;"/>
 
-The RPi board shown in the figure, at the right-hand side, you have the **USB ports** and blow that on the right is the port for **Ethernet**. Behind the USB ports,  there is an **interface IC chip** or controller of the USBs and Ethernet. At the top,  you can find the general purpose **I/O GPIO pins** (40 pins). Down the bottom middle is the **CSI (Camera Serial Interface) camera** connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the right-hand side, you can find a **DSI (Display Serial Interface) connector** which you can use to connect an LCD screen. At the bottom, you can find the **HDMI port**. HDMI to plug it straight into a monitor. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor. Next to the HDMI you can see the **USB power connector** and also an **audio port**. 
+The RPi board shown in the figure, at the right-hand side, you have the **USB ports** and blow that on the right is the port for **Ethernet**. Behind the USB ports,  there is an **interface IC chip** or controller of the USBs and Ethernet. At the top,  you can find the general purpose **I/O GPIO pins** (40 pins). Down the bottom middle is the **CSI (Camera Serial Interface) camera** connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the right-hand side, you can find a **DSI (Display Serial Interface) connector** which you can use to connect an LCD screen. At the bottom, you can find the **HDMI port**. HDMI to plug it straight into a monitor. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor. Next to the HDMI you can see the **USB power connector** and also an **audio port**.
+
+<center> <img src="RPI2Bback.png" alt="backrpiboard2B" style="width: 300px;"/> </center>
+
+### Important
+
+* Always make sure you supply only 5 V to the RPi.
+* Unlike Arduino, RPi does not have internal power protection system (yet), be careful when making GPIO connections.
+* Please DO NOT connect over 3.3V  or less than + 0V as input.
+* Never demand that any output pin source or sink more than 16 mA.
+* Pins can supply only maximum 50 mA.
+
+
+## Why Raspberry Pi?
