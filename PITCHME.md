@@ -22,7 +22,20 @@ https://github.com/Starignus/RPIGPIO
 
 #HSLIDE
 
-## Overview
+# Programme session 1
+
+* What is Raspberry
+* Hardware
+  * GPIO
+  * Digital
+* Familiarity with Raspbian
+  * Terminal
+
+# Programme session 2
+
+
+
+## Program
 
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
