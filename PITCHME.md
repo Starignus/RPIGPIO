@@ -49,7 +49,7 @@ https://github.com/Starignus/RPIGPIO
 * Challenge: Build an idea
 * Where to go further? (IoT, Data Science, Robotics, Health Care)
 
-[//]: <> (
+[comment]: <> (
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
 <ol>
