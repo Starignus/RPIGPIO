@@ -2,7 +2,7 @@
 
 * [What is a Raspberry Pi](#rpi1)
 * [Models of Raspberry Pi](#rpi2)
-* Raspberry Pi Board
+* [Raspberry Pi Board](#rpi3)
 * Why Raspberry Pi?
 
 
@@ -17,7 +17,7 @@ Raspberry Pi is a small computer of the size of a credit card that you can plug 
 There are different models of Raspberry Pi.
 
 
-<img src="raspberry-pi-products.jpg" alt="rpiproducts" style="width: 400px;"/>
+<img src="raspberry-pi-products.jpg" alt="rpiproducts" style="width: 500px;"/>
 
 All of them have different hardware specifications.
 
@@ -26,6 +26,11 @@ All of them have different hardware specifications.
 
 We will be working with the **RPi 3 Model B** that was launched in February 2016; The microprocessor is a Broadcom chip BCM2837 SoC <sup>[1](#myfootnote1)</sup>,  it uses a 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, has 1GB RAM, integrated 802.11n wireless LAN, and Bluetooth 4.1.
 
-
-
 <a name="myfootnote1">1</a>: SoC: System on Chip. A computer on a single chip.
+
+
+## <a name="rpi3"></a> Raspberry Pi Board
+
+<img src="RPI2B.png" alt="rpiboard2B" style="width: 500px;"/>
+
+The RPi board shown in the figure, at the right-hand side, you have the USB ports and blow that on the right is the port for Ethernet. Behind the USB ports,  there is an interface IC chip or controller of the USBs and Ethernet. At the top,  you can find the GPIO pins (40 pins). Down the bottom middle is the CSI (Camera Serial Interface) camera connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor.
