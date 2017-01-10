@@ -22,7 +22,7 @@ https://github.com/Starignus/RPIGPIO
 
 #HSLIDE
 
-# Programme session 1
+## Programme session 1
 
 * What is Raspberry
 * Hardware
@@ -31,12 +31,25 @@ https://github.com/Starignus/RPIGPIO
 * Familiarity with Raspbian
   * Terminal
 
-# Programme session 2
+#HSLIDE
 
+## Programme session 2
 
+* Python
+ * fdfs
+ * sdsfds
+* Python and GPIO:
+    * Digital I/O LEDs and Buttons
+    * Analog I/O Temperature
+#HSLIDE
 
-## Program
+## Programme session 3
 
+* Battery and Motors
+* Challenge: Build an idea
+* Where to go further? (IoT, Data Science, Robotics, Health Care)
+
+[//]: <> (
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
 <ol>
@@ -55,4 +68,4 @@ https://github.com/Starignus/RPIGPIO
 
 ## This slidedeck is Python3 compatible!
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$)
