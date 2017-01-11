@@ -4,25 +4,30 @@
 * [Models of Raspberry Pi](#rpi2)
 * [Raspberry Pi Board](#rpi3)
 * [Why Raspberry Pi?](#rpi4)
+* [Is RPi an Iot device?](#rpi5)
 
 
 ## <a name="rpi1"></a> What is a Raspberry Pi
 
 Raspberry Pi is a small computer of the size of a credit card that you can plug in a TV/monitor, keyboard and mouse. You can use it in the same way as you desktop PC or laptop does, like generating spreadsheets, word processing, browsing the internet, and playing games. It also plays high-definition video. However, what does more interesting Raspberry Pi (RPi), is the capability to make electronics projects with it! The main aim of RPI's design is to teach young people to program and to create new ideas. It has a free licence Linux operative system hold in an SD card and powered by a USB phone charger.
 
-<img src="pi3card.png" alt="rpicard" style="width: 300px;"/>
+<p align="center">
+<img src="pi3card.png" alt="rpicard" width="300">
+</p>
 
 ## <a name="rpi2"></a> Models of Raspberry Pi
 
 There are different models of Raspberry Pi.
 
-
-<img src="raspberry-pi-products.jpg" alt="rpiproducts" style="width: 500px;"/>
+<p align="center">
+<img src="raspberry-pi-products.jpg" alt="rpiproducts" width="500">
+</p>
 
 All of them have different hardware specifications.
 
-<img src="RPIspecific.png" alt="specifications" style="width: 400px;"/>
-
+<p align="center">
+<img src="RPIspecific.png" alt="specifications" width="400">
+</p>
 
 We will be working with the **RPi 3 Model B** that was launched in February 2016; The microprocessor is a Broadcom chip BCM2837 SoC <sup>[1](#myfootnote1)</sup>,  it uses a 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, has 1GB RAM, integrated 802.11n wireless LAN, and Bluetooth 4.1.
 
@@ -31,11 +36,16 @@ We will be working with the **RPi 3 Model B** that was launched in February 2016
 
 ## <a name="rpi3"></a> Raspberry Pi Board
 
-<img src="RPI3B.jpeg" alt="rpiboard2B" style="width: 350px;"/>
+<p align="center">
+<img src="RPI3B.jpeg" alt="rpiboard2B" width="350">
+</p>
 
 The RPi board shown in the figure, at the right-hand side, you have the **USB ports** and blow that on the right is the port for **Ethernet**. Behind the USB ports,  there is an **interface IC chip** or controller of the USBs and Ethernet. At the top,  you can find the general purpose **I/O GPIO pins** (40 pins). Down the bottom middle is the **CSI (Camera Serial Interface) camera** connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the right-hand side, you can find a **DSI (Display Serial Interface) connector** which you can use to connect an LCD screen. At the bottom, you can find the **HDMI port**. HDMI to plug it straight into a monitor. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor. Next to the HDMI you can see the **USB power connector** and also an **audio port**.
 
-<center> <img src="RPI2Bback.png" alt="backrpiboard2B" style="width: 200px;"/> </center>
+
+<p align="center">
+<img src="RPI2Bback.png" alt="backrpiboard2B" width="200">
+</p>
 
 ### Important
 
@@ -78,9 +88,21 @@ References of table:
 Another main difference between RPI and Arduino is that RPI has an operative system, whereas Arduino has not. The latter, you can run the code and run directly on the microcontroller. The presence of an operative system, make all the precess slower since the application does not directly interact with the microcontroller. What it means is that the application can not change a pin directly (turn from high to low or low to high), it has to go through the operative system. But there are many advantages of having an operative system.
 
 
-<center> <img src="OSIot.png" alt="OS" width="200" height="200"> </center>
-
 <p align="center">
 <img src="OSIot.png" alt="OS" width="300"> </p>
 
 The first thing you get is really a user interface. Arduino does not have a real user interface. It means that can do too much with it unless you write a program telling how to manipulate the pins, and may be is going to do something. In the case of having an operative system as in PRI, you can perform different tasks at the same time (multitasking); send and email, browsing the internet, coding and run the code to control the pins. We will see more about the RPI-Linux operating system with more detail in a bit.
+
+## <a name="rpi5"></a> Is RPi an Iot device?
+
+* **May be —** Depends on how it is used.
+* **Similarities**
+  * Network connectivity and computational processing power.
+  * Small and cheap (relative to a PC)
+  * Can interface directly with sensors and actuators via pins.
+  * The complexity of the system is not visible (interact via buttons, web apps).
+* **Differences**
+  * Interface can be exactly the same as a PC with Linux.
+* The complexity of the system is visible.
+
+After all the things we have learn about RPi, we can ask if you consider a Raspberry Pi to be an Internet of Things device? The answer is basically depending on how the RPI is being used.  If you use the RPi like a laptop or desktop, meaning you are interacitng with it by using the keyboard, a mouse, and a screen you are not using it as an IoT device. But you can also use it in such a way where you are not actually interacting with it directly. You can connect a bunch of sensors or actuators employing the pins, and rather type text directly with the keyboard into the RPi you just interact with the sensors or actuators by pushing buttons that make the actuators to do something. Then, you are are using the RPi as an IoT device because you are not directly interacting with the processor. Instead, you are communicating with the sensors and actuators.
