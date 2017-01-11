@@ -77,11 +77,8 @@ References of table:
 
 Another main difference between RPI and Arduino is that RPI has an operative system, whereas Arduino has not. The latter, you can run the code and run directly on the microcontroller. The presence of an operative system, make all the precess slower since the application does not directly interact with the microcontroller. What it means is that the application can not change a pin directly (turn from high to low or low to high), it has to go through the operative system. But there are many advantages of having an operative system.
 
-<center> <img src="OSIot.png" alt="OS" style="width: 200px"/> </center>
 
+<center> <img src="OSIot.png" alt="OS" width="200" height="200"> </center>
 
-<img src="OSIot.png" alt="alt text" width="200" height="200">
-
-![](OSIot.png = 100)
 
 The first thing you get is really a user interface. Arduino does not have a real user interface. It means that can do too much with it unless you write a program telling how to manipulate the pins, and may be is going to do something. In the case of having an operative system as in PRI, you can perform different tasks at the same time (multitasking); send and email, browsing the internet, coding and run the code to control the pins. We will see more about the RPI-Linux operating system with more detail in a bit.
