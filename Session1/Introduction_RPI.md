@@ -20,13 +20,13 @@ Raspberry Pi is a small computer of the size of a credit card that you can plug 
 There are different models of Raspberry Pi.
 
 <p align="center">
-<img src="raspberry-pi-products.jpg" alt="rpiproducts" width="500">
+<img src="raspberry-pi-products.jpg" alt="rpiproducts" width="600">
 </p>
 
 All of them have different hardware specifications.
 
 <p align="center">
-<img src="RPIspecific.png" alt="specifications" width="400">
+<img src="RPIspecific.png" alt="specifications" width="600">
 </p>
 
 We will be working with the **RPi 3 Model B** that was launched in February 2016; The microprocessor is a Broadcom chip BCM2837 SoC <sup>[1](#myfootnote1)</sup>,  it uses a 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, has 1GB RAM, integrated 802.11n wireless LAN, and Bluetooth 4.1.
@@ -37,7 +37,7 @@ We will be working with the **RPi 3 Model B** that was launched in February 2016
 ## <a name="rpi3"></a> Raspberry Pi Board
 
 <p align="center">
-<img src="RPI3B.jpeg" alt="rpiboard2B" width="350">
+<img src="RPI3B.jpeg" alt="rpiboard2B" width="400">
 </p>
 
 The RPi board shown in the figure, at the right-hand side, you have the **USB ports** and blow that on the right is the port for **Ethernet**. Behind the USB ports,  there is an **interface IC chip** or controller of the USBs and Ethernet. At the top,  you can find the general purpose **I/O GPIO pins** (40 pins). Down the bottom middle is the **CSI (Camera Serial Interface) camera** connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the right-hand side, you can find a **DSI (Display Serial Interface) connector** which you can use to connect an LCD screen. At the bottom, you can find the **HDMI port**. HDMI to plug it straight into a monitor. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor. Next to the HDMI you can see the **USB power connector** and also an **audio port**.
