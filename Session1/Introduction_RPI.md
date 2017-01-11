@@ -44,7 +44,7 @@ The RPi board shown in the figure, at the right-hand side, you have the **USB po
 
 
 <p align="center">
-<img src="RPI2Bback.png" alt="backrpiboard2B" width="200">
+<img src="RPI2Bback.png" alt="backrpiboard2B" width="300">
 </p>
 
 ### Important
