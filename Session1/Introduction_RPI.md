@@ -31,7 +31,7 @@ We will be working with the **RPi 3 Model B** that was launched in February 2016
 
 ## <a name="rpi3"></a> Raspberry Pi Board
 
-<img src="RPI3B.jpeg" alt="rpiboard2B" style="width: 500px;"/>
+<img src="RPI3B.jpeg" alt="rpiboard2B" style="width: 350px;"/>
 
 The RPi board shown in the figure, at the right-hand side, you have the **USB ports** and blow that on the right is the port for **Ethernet**. Behind the USB ports,  there is an **interface IC chip** or controller of the USBs and Ethernet. At the top,  you can find the general purpose **I/O GPIO pins** (40 pins). Down the bottom middle is the **CSI (Camera Serial Interface) camera** connector. You can get a camera for Raspberry PI and plug it in. Also, you have the option to connect a webcam to a USB. At the right-hand side, you can find a **DSI (Display Serial Interface) connector** which you can use to connect an LCD screen. At the bottom, you can find the **HDMI port**. HDMI to plug it straight into a monitor. At the bottom, you can find the HDMI port. HDMI to plug it straight into a monitor. Next to the HDMI you can see the **USB power connector** and also an **audio port**.
 
@@ -77,6 +77,8 @@ References of table:
 
 Another main difference between RPI and Arduino is that RPI has an operative system, whereas Arduino has not. The latter, you can run the code and run directly on the microcontroller. The presence of an operative system, make all the precess slower since the application does not directly interact with the microcontroller. What it means is that the application can not change a pin directly (turn from high to low or low to high), it has to go through the operative system. But there are many advantages of having an operative system.
 
-<center> <img src="OSIot.png" alt="OS" style="width: 300px;"/> </center>
+<center> <img src="OSIot.png" alt="OS" style="width: 200px"/> </center>
+
+![](OSIot.png = 100)
 
 The first thing you get is really a user interface. Arduino does not have a real user interface. It means that can do too much with it unless you write a program telling how to manipulate the pins, and may be is going to do something. In the case of having an operative system as in PRI, you can perform different tasks at the same time (multitasking); send and email, browsing the internet, coding and run the code to control the pins. We will see more about the RPI-Linux operating system with more detail in a bit.
