@@ -3,7 +3,7 @@
 * [What is a Raspberry Pi](#rpi1)
 * [Models of Raspberry Pi](#rpi2)
 * [Raspberry Pi Board](#rpi3)
-* Why Raspberry Pi?
+* [Why Raspberry Pi?](#rpi4)
 
 
 ## <a name="rpi1"></a> What is a Raspberry Pi
@@ -46,7 +46,7 @@ The RPi board shown in the figure, at the right-hand side, you have the **USB po
 * Pins can supply only maximum 50 mA.
 
 
-## Why Raspberry Pi?
+## <a name="rpi4"></a> Why Raspberry Pi?
 
 Why we chose RPI? When you compare RPI with Arduino, at first instance you can think that RPI is just faster and better and superior (Better processor and RAM memory). However,  Arduino, even though is older,  is well suited to certain tasks. Therefore, I would not say RPi is superior to Arduino or Arduino is superior to RPi. It just depends on what you want to use them. They are different and suitable for various aims.
 
