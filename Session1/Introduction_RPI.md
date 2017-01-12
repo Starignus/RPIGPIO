@@ -7,7 +7,7 @@
 * [Is RPi an IoT device?](#rpi5)
 * [General Purpose I/O Pins (GPIO)](#rpi6)
 * [Digital and Analogue](#rpi7)
-* [Output: Converting Digital to Analog](#rpi8)
+* [Output: Converting Digital to Analogue](#rpi8)
 
 ## <a name="rpi1"></a> What is a Raspberry Pi
 
