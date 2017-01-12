@@ -13,18 +13,18 @@ $git clone https://github.com/Starignus/RPIGPIO
 
 ##### Session 1:
 
-[Raspbery Pi](Session1/Introduction_RPI.md)
-* What is Raspberry?
-* Models of Raspberry Pi
-* Raspberry Pi Board
-* Why Raspberry Pi?
-* Is RPi an IoT device?
-* General Purpose I/O Pins (GPIO)
-* Digital and Analogue
-* Output: Converting Digital to Analogue
+* [Raspbery Pi](Session1/Introduction_RPI.md)
+  * What is Raspberry?
+  * Models of Raspberry Pi
+  * Raspberry Pi Board
+  * Why Raspberry Pi?
+  * Is RPi an IoT device?
+  * General Purpose I/O Pins (GPIO)
+  * Digital and Analogue
+  * Output: Converting Digital to Analogue
 
-[Introduction to Raspbian](Session1/Raspbian_Linux.md)
- * Linux Basics
+* [Introduction to Raspbian](Session1/Raspbian_Linux.md)
+   * Linux Basics
 
 Extra:
 * [Linux commands cheat sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
