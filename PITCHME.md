@@ -40,9 +40,7 @@ https://github.com/Starignus/RPIGPIO
 ## Programme session 2
 
 * Python
- * fdfs
- * sdsfds
-* Python and GPIO:
+* Python and GPIO (practice):
     * Digital I/O LEDs and Buttons
     * Analog I/O Temperature
 #HSLIDE
@@ -50,7 +48,7 @@ https://github.com/Starignus/RPIGPIO
 ## Programme session 3
 
 * Battery and Motors
-* Challenge: Build an idea
+* Challenge: Build an idea (practice)
 * Where to go further? (IoT, Data Science, Robotics, Health Care)
 
 [comment]: <> (
