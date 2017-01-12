@@ -7,7 +7,7 @@
 * [Is RPi an IoT device?](#rpi5)
 * [General Purpose I/O Pins (GPIO)](#rpi6)
 * [Digital and Analogue](#rpi7)
-
+* [Output: Converting Digital to Analog](#rpi8)
 
 ## <a name="rpi1"></a> What is a Raspberry Pi
 
@@ -186,3 +186,16 @@ To make an analogy for analogue and digital, you can think of a typical light sw
 |**Cost**|Low cost and portable.|    Cost is high and not easily portable.|
 |**Impedance**|    Low    |High order of 100 megaohms|
 |**Errors**|Analogue instruments usually have a scale which is cramped at lower end and give considerable observational errors.|    Digital instruments are free from observational errors like parallax and approximation errors.|
+
+## <a name="rpi8"></a> Output: Converting Digital to Analogue
+
+In the most recent versions of Raspbian Linux (RPI operative system), the **GPIO Python module** already installed, which has experimental functions for controlling the GPIO pins, sort of like a dimmer switch.
+This module is “sort of” like a dimmer switch because the module uses a method called **Pulse Width Modulation (PWM)**, to make it seem like there is a range of voltages coming out of its outputs. What it is doing is pulsing its pins on and off really quickly. So if you want the pin to be as though it is at half voltage, the pin will be pulsed so that it is on 50% of the time and on for 50% of the time. If you want the pin to be as though it is at 20% power, it will turn the pin on 20% of the time and off  80% of the time. **The percentage of time that it is on versus total time of the cycle is called the duty cycle** (See figure bellow). When you connect a LED to these pins and instruct the Raspberry Pi to change the duty cycle, it can give the effect of dimming the LED.
+
+<p align="center">
+<img src="Dutycycle.png" alt="Dutycycle" width="400">
+</p>
+
+The duty cycle represents how much time the pin is turned on over the course of an on-off cycle<sup>[2](#myfootnote2)</sup>.
+
+<a name="myfootnote1">1</a> Notes and figure from the [book Getting Started with Raspberry Pi.](https://www.amazon.co.uk/dp/1680452460/ref=pd_lpo_sbs_dp_ss_1/254-0013465-0469609?pf_rd_m=A3P5ROKL5A1OLE&pf_rd_s=lpo-top-stripe&pf_rd_r=3T5TJSNEHMJHPSM0W7AS&pf_rd_t=201&pf_rd_p=569136327&pf_rd_i=1449344216)
