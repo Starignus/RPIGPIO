@@ -1,7 +1,8 @@
 # Operating System Raspbian (Linux)
 
 * [Introduction to Raspbian](#rpi1)
-* [Raspberry Pi Configuration (Optional)](#rpi2)
+* [Linux Basics](#rpi2)
+* [Raspberry Pi Configuration (Optional)](#rpi3)
 
 ## <a name="rasp1"></a> Introduction to Raspbian
 
@@ -19,7 +20,21 @@ The advantage of having an operating is getting a user interface. It gives easy 
 
 In our class, we will stick more with the Graphic interface (it is easier for beginners). However, some tasks are easier to do with the Text-based interface so that we will access the Text-based interface from the Graphic interface to get familiar with the command lines. If you love programming and making prototypes, you will be mostly using the Text-based interface; you will love it!
 
-## <a name="rasp2"></a> Raspberry Pi Configuration (Optional)
+## <a name="rasp2"></a> Linux Basics
+
+There are many types of Shells, but the one implemented in Raspbian is BASH. So here are some basic commands to start exploring. So open a terminal in your RPI from the icon in the menu bar on the left.
+
+<p align="center">
+<img src="raspbian_pixel_desktop_acesso.jpg" alt="terminal" width="1000">
+</p>
+
+<p align="center">
+<img src="linixcommands.gif" alt="terminal" width="1000">
+</p>
+
+
+
+## <a name="rasp3"></a> Raspberry Pi Configuration (Optional)
 
  Each team should get a monitor, keyboard and mouse.
 * Insert the mini SD card in the Raspberry Pi , connect the mouse and keyboard in the USB ports, and the display with provided HDMI-DVI cable. Then,  using Y-cable, power it up by plugging in the charger.
@@ -31,14 +46,14 @@ $ sudo raspi-config
 ```
 **Note:** To execute any Linux command as root user, the *sudo* command presides the Linux command.
 
-* The terminal will show a menu which can be navigated with the arrows on your keyboard and accept options with enter.
+* The terminal will show a menu which can be navigated with the arrows on your keyboard and accept options with Enter.
 
 <p align="center">
 <img src="raspi_config.png" alt="screen" width="600">
 </p>
 
-* Then we set up the keyboard to prevent any problem when changing the password, therefore we access the option: __Internationalisation Options --> Change the Keyboard Layout__. Then we choose generic 105 key, and then the UK.
-* Also we have option to change the timezone from this menu.
+* Then we set up the keyboard to prevent any problem when changing the password. Therefore we access the option: __Internationalisation Options --> Change the Keyboard Layout__. Then we choose generic 105 key, and then the UK.
+* Also we have the option to change the timezone from this menu.
 
 <p align="center">
 <img src="Internationalisation.png" alt="screen" width="600">
