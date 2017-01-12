@@ -97,17 +97,6 @@ The first thing you get is really a user interface. Arduino does not have a real
 
 ## <a name="rpi5"></a> Is RPi an Iot device?
 
-* **May be—** Depends on how it is used.
-* **Similarities**
-  * Network connectivity and computational processing power.
-  * Small and cheap (relative to a PC)
-  * Can interface directly with sensors and actuators via pins.
-  * The complexity of the system is not visible (interact via buttons, web apps).
-* **Differences**
-  * Interface can be exactly the same as a PC with Linux.
-* The complexity of the system is visible.
-
-After all the things we have learn about RPi, we can ask if you consider a Raspberry Pi to be an Internet of Things device? The answer is depending on how the RPI is being used.  If you use the RPi like a laptop or desktop, meaning you are interacting with it by using the keyboard, a mouse, and a screen you are not using it as an IoT device. But you can also use it in such a way where you are not interacting with it directly. You can connect a bunch of sensors or actuators employing the pins, and rather type text directly with the keyboard into the RPi you just interact with the sensors or actuators by pushing buttons that make the actuators to do something. Then, you are are using the RPi as an IoT device because you are not directly interacting with the processor. Instead, you are communicating with the sensors and actuators.
 
 More info about choosing Arduino or RPi in this [link](http://makezine.com/2015/12/04/admittedly-simplistic-guide-raspberry-pi-vs-arduino/).
 
