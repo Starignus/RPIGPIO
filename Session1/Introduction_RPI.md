@@ -122,7 +122,7 @@ Your Raspberry Pi is more than just a small computer; it is a hardware prototypi
 Raspberry has its GPIO over a standard male header on the board. From the first models to the latest, the header has expanded from 26 pins to 40 pins while maintaining the original pinout.
 
 <p align="center">
-<img src="rpi_old_new_pin.jpg" alt="rpi" width="450">
+<img src="rpi_old_new_pin.jpg" alt="rpi" width="500">
 </p>
 
 There are (at least) two, different numbering schemes you may encounter when referencing **Pi pin numbers**:
@@ -135,13 +135,13 @@ You can use either number-system, but when you are programming how to use the pi
 The next table shows all 40 pins on the P1 header, including any particular function they may have, and their dual numbers:
 
 <p align="center">
-<img src="header_pinout.jpg" alt="pin" width="400">
+<img src="header_pinout.jpg" alt="pin" width="500">
 </p>
 
 In the next table, we show another numbering system along with the ones we showed above: Pi pin header numbers and element14 given names, wiringPi numbers, Python numbers, and related silkscreen on the wedge. The Broadcom pin numbers in the table are related to RPi Model 2 and later only.
 
 <p align="center">
-<img src="Pi_pin_header_numbers.png" alt="pin" width="400">
+<img src="Pi_pin_header_numbers.png" alt="pin" width="500">
 </p>
 
 This table shows that the RPi not only gives you access to the bi-directional I/O pins, but also [Serial (UART)](https://learn.sparkfun.com/tutorials/serial-communication), [I2C](https://learn.sparkfun.com/tutorials/i2c), [SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi), and even some Pulse width modulation ([PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation) — “analog output”).
@@ -157,7 +157,7 @@ Both are used to transmit information, usually through **electric signals**. In 
 * In **digital technology** (discrete signal), translation of information is into binary format (zero or one) where each bit is representative of two distinct amplitudes.
 
 <p align="center">
-<img src="analog_digital.png" alt="pin" width="400">
+<img src="analog_digital.png" alt="pin" width="500">
 </p>
 
 To make an analogy for analogue and digital, you can think of a typical light switch versus a dimmer switch. Digital is like the switch on the left of the figure bellow; it can be either on or off (binary state). analogue, on the other hand, can be set at a range of values between fully on and completely off.
