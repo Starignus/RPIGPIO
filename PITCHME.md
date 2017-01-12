@@ -25,11 +25,15 @@ https://github.com/Starignus/RPIGPIO
 ## Programme session 1
 
 * [What is Raspberry?](https://github.com/Starignus/RPIGPIO/blob/master/Session1/Introduction_RPI.md)
-  * Hardware
-  * GPIO
-  * Digital
-* Familiarity with Raspbian
-  * Terminal
+* Models of Raspberry Pi
+* Raspberry Pi Board
+* Why Raspberry Pi?
+* Is RPi an IoT device?
+* General Purpose I/O Pins (GPIO)
+* Digital and Analogue
+* Output: Converting Digital to Analogue
+* [Introduction to Raspbian](https://github.com/Starignus/RPIGPIO/blob/master/Session1/Raspbian_Linux.md)
+* Linux Basics
 
 #HSLIDE
 
