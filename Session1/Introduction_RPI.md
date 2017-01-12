@@ -98,6 +98,10 @@ The first thing you get is really a user interface. Arduino does not have a real
 
 ## <a name="rpi5"></a> Is RPi an IoT device?
 
+First, what is an IoT?
+
+It is the interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data.
+
 * **May be—** Depends on how it is used.
 * **Similarities**
   * Network connectivity and computational processing power.
