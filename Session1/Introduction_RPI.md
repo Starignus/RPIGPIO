@@ -99,7 +99,11 @@ The first thing you get is really a user interface. Arduino does not have a real
 ## <a name="rpi5"></a> Is RPi an Iot device?
 
 * **May be—** Depends on how it is used.
-
+* **Similarities**
+  * Network connectivity and computational processing power.
+  * Small and cheap (relative to a PC)
+  * Can interface directly with sensors and actuators via pins.
+  * The complexity of the system is not visible (interact via buttons, web apps).
 
 ## <a name="rpi6"></a> General Purpose I/O Pins (GPIO)
 
