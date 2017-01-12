@@ -104,7 +104,7 @@ The first thing you get is really a user interface. Arduino does not have a real
   * Small and cheap (relative to a PC)
   * Can interface directly with sensors and actuators via pins.
   * The complexity of the system is not visible (interact via buttons, web apps).
-  * **Differences**
+* **Differences**
   * Interface can be exactly the same as a PC with Linux.
   * The complexity of the system is visible.
 
