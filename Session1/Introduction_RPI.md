@@ -138,7 +138,7 @@ The next table shows all 40 pins on the P1 header, including any particular func
 <img src="header_pinout.jpg" alt="pin" width="500">
 </p>
 
-In the next table, we show another numbering system along with the ones we showed above: Pi pin header numbers and element14 given names, wiringPi numbers, Python numbers, and related silkscreen on the wedge. The Broadcom pin numbers in the table are related to RPi Model 2 and later only.
+In the next table, we show another numbering system along with the ones we showed above: **Pi pin header numbers and element14 given names, wiringPi numbers, Python numbers, and related silkscreen on the wedge**. The Broadcom pin numbers in the table are related to RPi Model 2 and later only.
 
 <p align="center">
 <img src="Pi_pin_header_numbers.png" alt="pin" width="500">
