@@ -6,6 +6,7 @@
 * [Why Raspberry Pi?](#rpi4)
 * [Is RPi an IoT device?](#rpi5)
 * [General Purpose I/O Pins (GPIO)](#rpi6)
+* [Digital and Analogue](#rpi7)
 
 
 ## <a name="rpi1"></a> What is a Raspberry Pi
@@ -106,8 +107,81 @@ The first thing you get is really a user interface. Arduino does not have a real
   * Interface can be exactly the same as a PC with Linux.
 * The complexity of the system is visible.
 
-After all the things we have learn about RPi, we can ask if you consider a Raspberry Pi to be an Internet of Things device? The answer is basically depending on how the RPI is being used.  If you use the RPi like a laptop or desktop, meaning you are interacitng with it by using the keyboard, a mouse, and a screen you are not using it as an IoT device. But you can also use it in such a way where you are not actually interacting with it directly. You can connect a bunch of sensors or actuators employing the pins, and rather type text directly with the keyboard into the RPi you just interact with the sensors or actuators by pushing buttons that make the actuators to do something. Then, you are are using the RPi as an IoT device because you are not directly interacting with the processor. Instead, you are communicating with the sensors and actuators.
+After all the things we have learn about RPi, we can ask if you consider a Raspberry Pi to be an Internet of Things device? The answer is depending on how the RPI is being used.  If you use the RPi like a laptop or desktop, meaning you are interacting with it by using the keyboard, a mouse, and a screen you are not using it as an IoT device. But you can also use it in such a way where you are not interacting with it directly. You can connect a bunch of sensors or actuators employing the pins, and rather type text directly with the keyboard into the RPi you just interact with the sensors or actuators by pushing buttons that make the actuators to do something. Then, you are are using the RPi as an IoT device because you are not directly interacting with the processor. Instead, you are communicating with the sensors and actuators.
 
 More info about choosing Arduino or RPi in this [link](http://makezine.com/2015/12/04/admittedly-simplistic-guide-raspberry-pi-vs-arduino/).
 
 ## <a name="rpi6"></a> General Purpose I/O Pins (GPIO)
+
+
+Your Raspberry Pi is more than just a small computer; it is a hardware prototyping tool! The RPi has **bi-directional I/O pins**, which you can use to drive LEDs, spin motors, or read button presses. To drive the RPi's I/O lines requires a bit or programming. You can use a [variety of programming languages](http://elinux.org/RPi_Low-level_peripherals#GPIO_Code_examples), but we decided to use a reliable, easy tools for driving I/O: **Python**.
+
+###  GPIO Pinout
+
+Raspberry has its GPIO over a standard male header on the board. From the first models to the latest, the header has expanded from 26 pins to 40 pins while maintaining the original pinout.
+
+<p align="center">
+<img src="rpi_old_new_pin.jpg" alt="rpi" width="350">
+</p>
+
+There are (at least) two, different numbering schemes you may encounter when referencing **Pi pin numbers**:
+
+1. **Broadcom chip-specific** pin numbers.
+2. **P1 physical** pin numbers.
+
+You can use either number-system, but when you are programming how to use the pins, it requires that you declare which scheme you are using at the very beginning of your program. We will see this later.
+
+The next table shows all 40 pins on the P1 header, including any particular function they may have, and their dual numbers:
+
+<p align="center">
+<img src="header_pinout.jpg" alt="pin" width="350">
+</p>
+
+In the next table, we show another numbering system along with the ones we showed above: Pi pin header numbers and element14 given names, wiringPi numbers, Python numbers, and related silkscreen on the wedge. The Broadcom pin numbers in the table are related to RPi Model 2 and later only.
+
+<p align="center">
+<img src="Pi_pin_header_numbers.png" alt="pin" width="350">
+</p>
+
+This table shows that the RPi not only gives you access to the bi-directional I/O pins, but also [Serial (UART)](https://learn.sparkfun.com/tutorials/serial-communication), [I2C](https://learn.sparkfun.com/tutorials/i2c), [SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi), and even some Pulse width modulation ([PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation) — “analog output”).
+
+## <a name="rpi7"></a> Digital and Analog
+
+RPI has just digital I/O (not analogue). GPIO outputs are easy; they are on or off, HIGH or LOW, 3v or 0v. But let us revise what is the difference between **analogue** and **digital** signals.
+
+Both are used to transmit information, usually through **electric signals**. In both these technologies, the information, such as any audio or video, is transformed into electrical signals. The **difference between analogue and digital**:
+
+* In **analogue technology** (continue signal), information is translated into electric pulses of varying amplitude.
+
+* In **digital technology** (discrete signal), translation of information is into binary format (zero or one) where each bit is representative of two distinct amplitudes.
+
+<p align="center">
+<img src="analog_digital.png" alt="pin" width="350">
+</p>
+
+To make an analogy for analogue and digital, you can think of a typical light switch versus a dimmer switch. Digital is like the switch on the left of the figure bellow; it can be either on or off (binary state). analogue, on the other hand, can be set at a range of values between fully on and completely off.
+
+<p align="center">
+<img src="switchers.png" alt="switcher" width="300">
+</p>
+
+#### Comparison chart
+
+| |Analog |Digital|
+|:------|:-------|:-------|
+|**Signal**| Analog signal is a continuous signal which represents physical measurements.|    Digital signals are discrete time signals generated by digital modulation.|
+|**Waves**|    Denoted by sine waves.|    Denoted by square waves.|
+|**Representation**| Uses continuous range of values to represent information.|    Uses discrete or discontinuous values to represent information.|
+|**Example**|    Human voice in air, analogue electronic devices.|    Computers, CDs, DVDs, and other digital electronic devices.|
+|**Technology**| Analogue technology records waveforms as they are.|    Samples analogue waveforms into a limited set of numbers and records them.|
+|**Data transmissions**|Subjected to deterioration by noise during transmission and write/read cycle.|Can be noise-immune without deterioration during transmission and write/read cycle.|
+|**Response to Noise**|    More likely to get affected reducing accuracy|    Less affected since noise response are analogue in nature|
+|**Flexibility**|    Analog hardware is not flexible.|Digital hardware is flexible in implementation.|
+|**Uses**|Can be used in analogue devices only. Best suited for audio and video transmission.|    Best suited for Computing and digital electronics.|
+|**Applications**|Thermometer|PCs, PDAs|
+|**Bandwidth**|    Analog signal processing can be done in real time and consumes less bandwidth.|    There is no guarantee that digital signal processing can be done in real time and consumes more bandwidth to carry out the same information.|
+|**Memory**| Stored in the form of wave signal.|Stored in the form of binary bit.|
+|**Power**|    Analog instrument draws large power.|    Digital instrument drawS only negligible power.|
+|**Cost**|Low cost and portable.|    Cost is high and not easily portable.|
+|**Impedance**|    Low    |High order of 100 megaohms|
+|**Errors**|Analogue instruments usually have a scale which is cramped at lower end and give considerable observational errors.|    Digital instruments are free from observational errors like parallax and approximation errors.|
