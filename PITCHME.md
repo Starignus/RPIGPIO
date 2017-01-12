@@ -39,10 +39,11 @@ https://github.com/Starignus/RPIGPIO
 
 ## Programme session 2
 
-* Python
+* Introduction to Python
 * Python and GPIO (practice):
     * Digital I/O LEDs and Buttons
-    * Analog I/O Temperature
+    * Analogue I/O Temperature
+
 #HSLIDE
 
 ## Programme session 3
