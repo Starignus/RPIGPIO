@@ -9,8 +9,7 @@ Raspberry Pi has an operating system called Raspbian, which is the official supp
 The advantage of having an operating is getting a user interface. It gives easy access to a regular user for giving commands to the computer and do basic things, without writing any code. The user can just sit there and do things with a computer and get results or do something interesting. In general, for any Linux base operative system, you have two different interfaces: **Graphic interface** and **Text-based interface (terminal or console)**.
 
 <p align="center">
-<img src="terminal-GI.png
-" alt="terminal-GI" width="600">
+<img src="terminal-GI.png" alt="terminal-GI" width="600">
 </p>
 
 * In the  Text-based interface, there are no pull-down menus—you will note a pull-down menu on the top, but it is only accessible when you open the terminal from the Graphic interface, so ignore it for the moment. In the  Text-based interface or terminal,  you just type commands and it prints out the results.
