@@ -127,7 +127,7 @@ Raspberry has its GPIO over a standard male header on the board. From the first 
 
 There are (at least) two, different numbering schemes you may encounter when referencing **Pi pin numbers**:
 
-1. **Broadcom chip-specific** pin numbers.
+1. **Broadcom (SoC) chip-specific** pin numbers.
 2. **P1 physical** pin numbers.
 
 You can use either number-system, but when you are programming how to use the pins, it requires that you declare which scheme you are using at the very beginning of your program. We will see this later.
@@ -145,6 +145,7 @@ In the next table, we show another numbering system along with the ones we showe
 </p>
 
 This table shows that the RPi not only gives you access to the bi-directional I/O pins, but also [Serial (UART)](https://learn.sparkfun.com/tutorials/serial-communication), [I2C](https://learn.sparkfun.com/tutorials/i2c), [SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi), and even some Pulse width modulation ([PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation) — “analog output”).
+
 
 ## <a name="rpi7"></a> Digital and Analog
 
