@@ -193,7 +193,7 @@ In the most recent versions of Raspbian Linux (RPI operative system), the **GPIO
 This module is “sort of” like a dimmer switch because the module uses a method called **Pulse Width Modulation (PWM)**, to make it seem like there is a range of voltages coming out of its outputs. What it is doing is pulsing its pins on and off really quickly. So if you want the pin to be as though it is at half voltage, the pin will be pulsed so that it is on 50% of the time and on for 50% of the time. If you want the pin to be as though it is at 20% power, it will turn the pin on 20% of the time and off  80% of the time. **The percentage of time that it is on versus total time of the cycle is called the duty cycle** (See figure bellow). When you connect a LED to these pins and instruct the Raspberry Pi to change the duty cycle, it can give the effect of dimming the LED.
 
 <p align="center">
-<img src="Dutycycle.png" alt="Dutycycle" width="400">
+<img src="Dutycycle.png" alt="Dutycycle" width="500">
 </p>
 
 The duty cycle represents how much time the pin is turned on over the course of an on-off cycle<sup>[2](#myfootnote2)</sup>.
