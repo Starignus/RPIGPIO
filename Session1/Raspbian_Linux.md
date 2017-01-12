@@ -25,13 +25,16 @@ In our class, we will stick more with the Graphic interface (it is easier for be
 There are many types of Shells, but the one implemented in Raspbian is BASH. So here are some basic commands to start exploring. So open a terminal in your RPI from the icon in the menu bar on the left.
 
 <p align="center">
-<img src="raspbian_pixel_desktop_acesso.jpg" alt="terminal" width="1000">
+<img src="raspbian_pixel_desktop_acesso.jpg" alt="terminal" width="450">
 </p>
+
+Then we can type some basic commands. For example **pwd**. It shows the path where we are working. Also, we can use  **man** which  givs information about any Linux command
+RPI setup. Another useful command is  *ls*, which let us know the folders contained in a directory. *ls -alrt* give us more information of the system and it orders in reverse order of how the files were created.
+There are some basic
 
 <p align="center">
-<img src="linixcommands.gif" alt="terminal" width="1000">
+<img src="linixcommands.gif" alt="terminal" width="600">
 </p>
-
 
 
 ## <a name="rasp3"></a> Raspberry Pi Configuration (Optional)
