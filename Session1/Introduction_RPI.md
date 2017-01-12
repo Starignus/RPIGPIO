@@ -98,6 +98,8 @@ The first thing you get is really a user interface. Arduino does not have a real
 
 ## <a name="rpi5"></a> Is RPi an Iot device?
 
+* **May be—** Depends on how it is used.
+
 
 ## <a name="rpi6"></a> General Purpose I/O Pins (GPIO)
 
