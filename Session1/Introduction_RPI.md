@@ -33,7 +33,7 @@ All of them have different hardware specifications.
 
 We will be working with the **RPi 3 Model B** that was launched in February 2016; The microprocessor is a Broadcom chip BCM2837 SoC <sup>[1](#myfootnote1)</sup>,  it uses a 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, has 1GB RAM, integrated 802.11n wireless LAN, and Bluetooth 4.1.
 
-<a name="myfootnote1">1.</a>: SoC: System on Chip. A computer on a single chip.
+<a name="myfootnote1">Ref 1.</a>: SoC: System on Chip. A computer on a single chip.
 
 
 ## <a name="rpi3"></a> Raspberry Pi Board
@@ -96,7 +96,7 @@ Another main difference between RPI and Arduino is that RPI has an operative sys
 
 The first thing you get is really a user interface. Arduino does not have a real user interface. It means that can do too much with it unless you write a program telling how to manipulate the pins, and may be is going to do something. In the case of having an operative system as in PRI, you can perform different tasks at the same time (multitasking); send and email, browsing the internet, coding and run the code to control the pins. We will see more about the RPI-Linux operating system with more detail in a bit.
 
-## <a name="rpi5"></a> Is RPi an Iot device?
+## <a name="rpi5"></a> Is RPi an IoT device?
 
 * **May be—** Depends on how it is used.
 * **Similarities**
@@ -199,4 +199,4 @@ This module is “sort of” like a dimmer switch because the module uses a meth
 
 The duty cycle represents how much time the pin is turned on over the course of an on-off cycle<sup>[2](#myfootnote2)</sup>.
 
-<a name="myfootnote1">2.</a> Notes and figure from the [book Getting Started with Raspberry Pi.](https://www.amazon.co.uk/dp/1680452460/ref=pd_lpo_sbs_dp_ss_1/254-0013465-0469609?pf_rd_m=A3P5ROKL5A1OLE&pf_rd_s=lpo-top-stripe&pf_rd_r=3T5TJSNEHMJHPSM0W7AS&pf_rd_t=201&pf_rd_p=569136327&pf_rd_i=1449344216)
+<a name="myfootnote1">Ref 2.</a> Notes and figure from the [book Getting Started with Raspberry Pi.](https://www.amazon.co.uk/dp/1680452460/ref=pd_lpo_sbs_dp_ss_1/254-0013465-0469609?pf_rd_m=A3P5ROKL5A1OLE&pf_rd_s=lpo-top-stripe&pf_rd_r=3T5TJSNEHMJHPSM0W7AS&pf_rd_t=201&pf_rd_p=569136327&pf_rd_i=1449344216)
