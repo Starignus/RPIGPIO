@@ -1,5 +1,7 @@
 # Introduction to Python
 
+## Raspbian Integrated development environment (IDE)
+
 Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
 
 <p align="center">
@@ -14,13 +16,6 @@ In the menu,  we have access to the Python interpreters. Also, we can use the Ge
 <p align="center">
 <img src="IDEPython.gif" alt="IDEPython" width="800">
 </p>
-
-## Raspbian Integrated development environment (IDE)
-
-Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
-
-For our course, we are going to use Python as our main programming language. It has a tidy syntax,  easy to understand.
-
 #### About Python Language  
 
 Remember that you are intelligent, and you can learn, but the computer is simple and very fast, but can not learn by itself. Therefore, for you to communicate instructions on the computer, it is easier for you to learn a computer Language (e.g. Python) than for the computer to learn English.
