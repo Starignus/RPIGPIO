@@ -1,5 +1,25 @@
 # Introduction to Python
 
+Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
+
+<p align="center">
+<img src="raspbian_pixel_desktop_IDE.jpg
+" alt="IDE" width="300">
+</p>
+
+For our course, we are going to use Python as our main programming language. It has a tidy syntax,  easy to understand.
+
+In the menu,  we have access to the Python interpreters. Also, we can use the Geany Programmer's Editor as an IDE. Also, we can use editors available in the terminal like vim, nano, etc. We can also get used of the Python interpreter from the terminal and run scripts (see bellow).
+
+<p align="center">
+<img src="IDEPython.gif" alt="IDEPython" width="800">
+</p>
+
+## Raspbian Integrated development environment (IDE)
+
+Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
+
+For our course, we are going to use Python as our main programming language. It has a tidy syntax,  easy to understand.
 
 #### About Python Language  
 
@@ -200,7 +220,7 @@ print x
 When a program is running, it flows from one step to the next.  As programmers, we set up “paths” for the program to follow.
 
 <p align="center">
-<img src="Flow_1.png" alt="Drawing" width="350">
+<img src="Flow_1.png" alt="Drawing" width="300">
 </p>
 
 Close the text editor, and then you can execute it in two ways:
