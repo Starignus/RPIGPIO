@@ -1,6 +1,12 @@
 # Introduction to Python
 
-## Raspbian Integrated development environment (IDE)
+* [Raspbian Integrated development environment (IDE)](#raspy1)
+* [Basic Practise](#raspy2)
+* [Data Types](#raspy3)
+* [Scripts](#raspy4)
+* [Functions](#raspy5)
+
+## <a name="raspy1"></a> Raspbian Integrated development environment (IDE)
 
 Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
 
@@ -21,7 +27,7 @@ Remember that you are intelligent, and you can learn, but the computer is simple
 
 Python can be **easy to pick up and friendly to learn**. [Python](https://www.python.org/) is a **general-purpose** interpreted , interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. There are two main python versions: 2.7 and 3. For this course, we will use 2.7 since it is the most common or popular used.    
 
-#### Basic Practise
+#### <a name="raspy2"></a> Basic Practise
 
 Let's get familiar with Python by playing in the terminal in the interactive mode (you type a line at a time, and the interpreter responds). You invoke the interpreter and brings up the following prompt:
 
@@ -92,7 +98,7 @@ True
 >>> "a" < "aa"
 True
 ```
-##### Data Types
+##### <a name="raspy3"></a> Data Types
 
 The data stored in memory can be of different types; Python has five: __Numbers, Strings, List, Tuple, and Dictionary__.
 
@@ -181,7 +187,7 @@ To quit the Python interpreter:
 >>> quit()
 ```
 
-##### Scripts
+##### <a name="raspy4"></a> Scripts
 
 A Script is a sequence of statements (lines) into a file using a text editor and tells Python interpreter to execute the statements in the file.
 
@@ -324,7 +330,7 @@ $ ./example_for_loop.py
 Here we are importing the [Numpy library](http://www.numpy.org/).
 That is the fundamental package for scientific computing with Python. We are adding a short alias to the library to call its methods, in this case, the value of Pi.
 
-##### Functions
+##### <a name="raspy5"></a> Functions
 
 A function is a block of organised, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
 
