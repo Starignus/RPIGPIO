@@ -28,7 +28,7 @@ There are many types of Shells, but the one implemented in Raspbian is BASH. So 
 <img src="raspbian_pixel_desktop_acesso.jpg" alt="terminal" width="450">
 </p>
 
-Then we can type some basic commands. For example **pwd**. It shows the path where we are working. Also, we can use  **man** which  givs information about any Linux command
+Then we can type some basic commands. For example **pwd**. It shows the path where we are working. Also, we can use  **man** which  gives information about any Linux command
 RPI setup. Another useful command is  *ls*, which let us know the folders contained in a directory. *ls -alrt* give us more information of the system and it orders in reverse order of how the files were created.
 There are some basic
 
