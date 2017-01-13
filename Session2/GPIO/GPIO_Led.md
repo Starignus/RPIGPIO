@@ -11,6 +11,8 @@ Your Raspberry Pi is more than just a small computer; it is a hardware prototypi
 * [2 Resistors](https://www.sparkfun.com/products/11507?_ga=1.213562324.1915117394.1476705504)
 * [2 LEDs](https://www.sparkfun.com/products/9590?_ga=1.213548756.1915117394.1476705504)
 
+If you need to remember more about the GPIO Pinout, just got to the [introduction notes for RPI](../Session1/Introduction_RPI.md).
+
 ## Hardware Setup
 
 We start assembling the circuit as shown in the diagram bellow. We will use two LEDs to test the output functionality (digital and PWM-Pulse-width Modulation), and a button to test the input.

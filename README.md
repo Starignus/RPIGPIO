@@ -42,3 +42,7 @@ Extra:
 * Battery and Motors
 * Challenge: Build an idea (practice)
 * Where to go further? (IoT, Data Science, Robotics, Health Care)
+
+##### Optional material
+* [Backup RPi image operative system](Session1/Advance.md)
+* DC Motor practice.
