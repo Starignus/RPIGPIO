@@ -25,6 +25,7 @@ $git clone https://github.com/Starignus/RPIGPIO
 
 * [Introduction to Raspbian](Session1/Raspbian_Linux.md)
    * Linux Basics
+     * [Cheat Sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md) 
 
 Extra:
 * [Linux commands cheat sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
