@@ -32,7 +32,7 @@ Extra:
 
 ##### Session 2:
 
-* Introduction to Python
+* [Introduction to Python](Session2/Python/Python.md)
 * Python and GPIO (practice):
     * Digital I/O LEDs and Buttons
     * Analogue I/O Temperature
