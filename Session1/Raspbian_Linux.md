@@ -36,7 +36,7 @@ There are some basic
 <img src="linixcommands.gif" alt="terminal" width="800">
 </p>
 
-You can find more commands [here](/Bash_script/Cheat_sheet_bash_Linux), and you can play to get used to the command line.
+You can find more commands [here](Bash_script/Cheat_sheet_bash_Linux), and you can play to get used to the command line.
 
 ## <a name="rasp3"></a> Raspberry Pi Configuration (Optional)
 
