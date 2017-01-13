@@ -5,7 +5,7 @@
 Using a Raspberry Pi is an excellent way of getting into programming,  especially if you are a newbie and want to learn about programming in different programming languages. To start getting into programming, then the first thing to do is to get yourself an IDE (Integrated Development Environment). You need to write code to make your RPi do things, and an **IDE is a tool to write, test and run code**. The RPi supports lots of different languages to write your code, so there is a wide choice (look at the screenshot bellow).
 
 <p align="center">
-<img src="raspbian_pixel_desktop_IDE.jpg" alt="IDE" width="300">
+<img src="raspbian_pixel_desktop_IDE.jpg" alt="IDE" width="450">
 </p>
 
 For our course, we are going to use Python as our main programming language. It has a tidy syntax,  easy to understand.
