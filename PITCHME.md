@@ -22,22 +22,23 @@ https://github.com/Starignus/RPIGPIO
 
 #HSLIDE
 
-## Programme session 1
+## Session 1
 
-* [What is Raspberry?](https://github.com/Starignus/RPIGPIO/blob/master/Session1/Introduction_RPI.md)
-* Models of Raspberry Pi
-* Raspberry Pi Board
-* Why Raspberry Pi?
-* Is RPi an IoT device?
-* General Purpose I/O Pins (GPIO)
-* Digital and Analogue
-* Output: Converting Digital to Analogue
+* [Raspbery Pi](https://github.com/Starignus/RPIGPIO/blob/master/Session1/Introduction_RPI.md)
+  * What is Raspberry?
+  * Models of Raspberry Pi
+  * Raspberry Pi Board
+  * Why Raspberry Pi?
+  * Is RPi an IoT device?
+  * General Purpose I/O Pins (GPIO)
+  * Digital and Analogue
+  * Output: Converting Digital to Analogue
 * [Introduction to Raspbian](https://github.com/Starignus/RPIGPIO/blob/master/Session1/Raspbian_Linux.md)
 * Linux Basics
 
 #HSLIDE
 
-## Programme session 2
+## Session 2
 
 * [Introduction to Python](https://github.com/Starignus/RPIGPIO/blob/master/Session2/Python/Python.md)
 * Python and GPIO (practice):
@@ -46,7 +47,7 @@ https://github.com/Starignus/RPIGPIO
 
 #HSLIDE
 
-## Programme session 3
+## Session 3
 
 * Battery and Motors
 * Challenge: Build an idea (practice)
