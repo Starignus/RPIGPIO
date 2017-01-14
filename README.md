@@ -25,7 +25,7 @@ $git clone https://github.com/Starignus/RPIGPIO
 
 * [Introduction to Raspbian](Session1/Raspbian_Linux.md)
    * Linux Basics
-     * [Cheat Sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md) 
+     * [Cheat Sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
 
 Extra:
 * [Linux commands cheat sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
@@ -35,7 +35,7 @@ Extra:
 
 * [Introduction to Python](Session2/Python/Python.md)
 * Python and GPIO (practice):
-    * Digital I/O LEDs and Buttons
+    * [Digital I/O LEDs and Buttons](Session2/GPIO/GPIO_Led.md)
     * Analogue I/O Temperature
 
 ##### Session 3:
