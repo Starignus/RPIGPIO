@@ -56,7 +56,7 @@ https://github.com/Starignus/RPIGPIO
 
 
 
-[comment]: <> (
+<!---[comment]: <> (
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
 <ol>
@@ -75,4 +75,5 @@ https://github.com/Starignus/RPIGPIO
 
 ## This slidedeck is Python3 compatible!
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$)
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$ )
+-->
