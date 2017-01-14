@@ -56,7 +56,7 @@ https://github.com/Starignus/RPIGPIO
 
 
 
-<!---[comment]: <> (
+<!--   [comment]: <> (
 <span class="fragment" data-fragment-index="1" style="font-size: 0.8em; color:gray">The ROSE API is built on top of the </span>
 
 <ol>
