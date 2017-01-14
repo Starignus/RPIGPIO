@@ -47,3 +47,4 @@ Extra:
 ##### Optional material
 * [Backup RPi image operative system](Session1/Advance.md)
 * DC Motor practice.
+* [Instructors' slides](https://gitpitch.com/Starignus/RPIGPIO)
