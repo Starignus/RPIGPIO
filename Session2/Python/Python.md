@@ -157,7 +157,7 @@ The plus (+) sign is the string concatenation operator, and the asterisk (\*) is
 Since strings are a sequence of characters, we can use indexes to query a section of the sequence. We use the brackets [] after a string object. The indexing starts at 0 in python.
 
 <p align="center">
-<img src="Index.png" alt="terminal-GI" width="600">
+<img src="Index.png" alt="terminal-GI" width="400">
 </p>
 
 __Lists__ are the most versatile data types in Python. A list contains items separated by commas and enclosed in square brackets ([])—similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.
