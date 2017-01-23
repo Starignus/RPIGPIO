@@ -177,7 +177,7 @@ The values stored in a list can be accessed using the slice operator ([] and [:]
 
 A __tuple__ is another sequence data type that is similar to the list. It consists of some values separated by commas. Unlike lists, however, tuples are enclosed within parentheses.
 
-The main differences between lists and tuples are: Lists are enclosed in brackets ( [] ), and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated—__immutable__. Tuples can be thought of as read-only lists.
+The main differences between lists and tuples are: Lists are enclosed in brackets ( [] ), and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated—__immutable__. You would use tuples to present things that should not be changed, such as days of the week, or dates on a calendar. Tuples can be thought of as read-only lists.
 
 ``` python
 >>> tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
