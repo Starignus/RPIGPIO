@@ -154,6 +154,12 @@ The plus (+) sign is the string concatenation operator, and the asterisk (\*) is
 >>> "Now you're not going to have problems. No errors in the string!"
 ```
 
+Since strings are a sequence of characters, we can use indexes to query a section of the sequence. We use the brackets [] after a string object. The indexing starts at 0 in python.
+
+<p align="center">
+<img src="index.png" alt="terminal-GI" width="600">
+</p>
+
 __Lists__ are the most versatile data types in Python. A list contains items separated by commas and enclosed in square brackets ([])—similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.
 
 The values stored in a list can be accessed using the slice operator ([] and [:]) with indexes starting at 0 at the beginning of the list and working their way to ending -1. The plus (+) sign is the list concatenation operator, and the asterisk (\*) is the repetition operator.
