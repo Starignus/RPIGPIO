@@ -49,6 +49,36 @@ Strings, integers, and floating points:
 >>> print y
 >>> print name
 ```
+
+We can perform mathematical calculations in Python using the basic operators +, -, /, \*, %.
+
+``` python
+>>> 4 + 5
+>>> 4 - 3
+>>> 2 * 3
+>>> 2**3
+>>> 10 % 7 # Remainder of a division
+>>> 3 / 4
+```
+Why we get zero? In Python 2.x, where integer divisions will truncate instead of becoming a floating point number. You should make one of them a float:
+
+```python
+>>>float(3)/4
+>>>3/float(4)
+```
+In order to deal with classic division in Python 2.x, we can import a module called future which import Python 3 functions into Python 3.
+
+```python
+>>>from __future__ import division
+3/4
+```
+
+// is the floor division in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero.
+
+```python
+-11.0 // 3
+```
+
 In Python, the [standard order of operations](https://en.wikibooks.org/wiki/Python_Programming/Basic_Math) are evaluated from left to right following order (memorised by many as PEMDAS):
 
 
@@ -59,7 +89,6 @@ In Python, the [standard order of operations](https://en.wikibooks.org/wiki/Pyth
 | **M**ultiplication and **D**ivision | * / |  Multiplication is rapid addition and must happen first. |
 | **A**ddition and **S**ubtraction | + -  |     |
 
-_Note_: // is the floor division in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero.
 ``` python
 >>> 3/4 * 5  # First division and then Multiplication
 >>> 3.0 / 4 * 5
