@@ -64,7 +64,7 @@ Why we get zero? In Python 2.x, where integer divisions will truncate instead of
 
 ```python
 >>> float(3)/4
->>> 3 / absfloat(4)
+>>> 3 / float(4)
 ```
 In order to deal with classic division in Python 2.x, we can import a module called future which import Python 3 functions into Python 3.
 
