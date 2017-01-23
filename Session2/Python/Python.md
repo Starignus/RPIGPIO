@@ -76,6 +76,8 @@ In order to deal with classic division in Python 2.x, we can import a module cal
 // is the floor division in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero.
 
 ```python
+>>> 11.0 / 3
+>>> 11.0 //3
 >>> -11.0 // 3
 ```
 
