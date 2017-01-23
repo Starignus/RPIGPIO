@@ -149,7 +149,8 @@ The plus (+) sign is the string concatenation operator, and the asterisk (\*) is
 >>> print string[2:]      # Prints string starting from 3rd character
 >>> print string * 2      # Prints string two times
 >>> print string + "TEST" # Prints concatenated string
->>> 'You're using single quotes that will produce an error' # How to be careful with quotes
+>>> # How to be careful with quotes
+>>> 'You're using single quotes that will produce an error'
 >>> "Now you're not going to have problems. No errors in the string!"
 ```
 
