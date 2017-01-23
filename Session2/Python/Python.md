@@ -137,7 +137,12 @@ The data stored in memory can be of different types; Python has five: __Numbers,
 ```
 __Strings__ in Python are a set of characters represented by the quotation marks. Python allows for either pair of single or double quotes.
 
-Subsets of strings can be taken using the slice operator ([] and [:] ) with indexes starting at 0 at the beginning of the string and working their way from -1 to the end.
+
+Since strings are a sequence of characters, we can use indexes to query a section of the sequence. Subsets of strings can be taken using the slice operator ([] and [:] ) with indexes starting at 0 at the beginning of the string and working their way from -1 to the end.
+
+<p align="center">
+<img src="Index.png" alt="terminal-GI" width="400">
+</p>
 
 The plus (+) sign is the string concatenation operator, and the asterisk (\*) is the repetition operator. For example:
 
@@ -153,12 +158,6 @@ The plus (+) sign is the string concatenation operator, and the asterisk (\*) is
 >>> 'You're using single quotes that will produce an error'
 >>> "Now you're not going to have problems. No errors in the string!"
 ```
-
-Since strings are a sequence of characters, we can use indexes to query a section of the sequence. We use the brackets [] after a string object. The indexing starts at 0 in python.
-
-<p align="center">
-<img src="Index.png" alt="terminal-GI" width="400">
-</p>
 
 __Lists__ are the most versatile data types in Python. A list contains items separated by commas and enclosed in square brackets ([])—similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.
 
