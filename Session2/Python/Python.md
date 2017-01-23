@@ -78,7 +78,7 @@ In order to deal with classic division in Python 2.x, we can import a module cal
 ```python
 >>> 11.0 / 3
 >>> 11.0 //3
->>> -11.0 // 3
+>>> -11.0 // 3 # Result floored (rounded away from zero)
 ```
 
 In Python, the [standard order of operations](https://en.wikibooks.org/wiki/Python_Programming/Basic_Math) are evaluated from left to right following order (memorised by many as PEMDAS):
@@ -96,9 +96,6 @@ In Python, the [standard order of operations](https://en.wikibooks.org/wiki/Pyth
 >>> 3.0 / 4 * 5
 >>> (3.0 / 4) * 4
 >>> 2**8
->>> -11.0//3
->>> 11.0//3 # Result floored (rounded away from zero)
->>> -11.0/3  
 >>> z = float(5)
 >>> z
 >>> z = int(5.25)
