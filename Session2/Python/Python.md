@@ -149,6 +149,8 @@ The plus (+) sign is the string concatenation operator, and the asterisk (\*) is
 >>> print string[2:]      # Prints string starting from 3rd character
 >>> print string * 2      # Prints string two times
 >>> print string + "TEST" # Prints concatenated string
+>>> 'You're using single quotes that will produce an error' # How to be careful with quotes
+>>> "Now you're not going to have problems. No errors in the string!"
 ```
 
 __Lists__ are the most versatile data types in Python. A list contains items separated by commas and enclosed in square brackets ([])—similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.
