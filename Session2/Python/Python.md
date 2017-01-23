@@ -141,7 +141,7 @@ __Strings__ in Python are a set of characters represented by the quotation marks
 Since strings are a sequence of characters, we can use indexes to query a section of the sequence. Subsets of strings can be taken using the slice operator ([] and [:] ) with indexes starting at 0 at the beginning of the string and working their way from -1 to the end.
 
 <p align="center">
-<img src="Index.png" alt="terminal-GI" width="400">
+<img src="Index.png" alt="strings" width="400">
 </p>
 
 The plus (+) sign is the string concatenation operator, and the asterisk (\*) is the repetition operator. For example:
@@ -199,9 +199,12 @@ Invalid operations on a tuple but valid on a list:
 >>> list[2] = 1000     # Valid syntax with list
 ```
 
-Python's __dictionaries__ are hash table type. They work like associative arrays and consist of key-value pairs. A dictionary key can be almost any Python type but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object.
-Dictionaries are enclosed by curly braces ({}), and values can be assigned and accessed using square braces ([]).
 
+Until now we have learnt about sequences, but now we will learn about mapping in Python. __Dictionaries__ are kind of hash table type common in other languages. Mappings are a collection of objects that are stored by a key, unlike a sequence that stored objects by their relative position. In the case of mappings, they do not retain order since they have objects defined by a key. A dictionaries work like **associative arrays and consist of key-value pairs**. A key can be almost any Python type but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object. Dictionaries are enclosed by curly braces {} and values can be assigned and accessed using square braces [].
+
+  <p align="center">
+  <img src="dict.png" alt="terminal-GI" width="250">
+  </p>
 
 ``` python
 >>> dict = {}
