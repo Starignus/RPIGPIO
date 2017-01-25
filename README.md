@@ -44,6 +44,6 @@ Extra:
 * Where to go further? (IoT, Data Science, Robotics, Health Care)
 
 ##### Optional material
-* [Backup RPi image operative system](Session1/Advance.md)
+* [Backup RPi image operative system](Extramaterial/Advance.md)
 * [DC Motor practice](Extramaterial/GPIO_MotorHAT.md)
 * [Setup remote connection to RPi and WiFi at Imperial Collegue](https://starignus.github.io/PythonPractise//2016/10/14/RPisetup/)
