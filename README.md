@@ -46,5 +46,5 @@ Extra:
 
 ##### Optional material
 * [Backup RPi image operative system](Session1/Advance.md)
-* DC Motor practice.
-* [Instructors' slides](https://gitpitch.com/Starignus/RPIGPIO)
+* [DC Motor practice](Extramaterial/GPIO_MotorHAT.md)
+* [Setup remote connection to RPi and WiFi at Imperial Collegue](https://starignus.github.io/PythonPractise//2016/10/14/RPisetup/)
