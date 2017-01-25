@@ -28,7 +28,6 @@ $git clone https://github.com/Starignus/RPIGPIO
      * [Cheat Sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
 
 Extra:
-* [Linux commands cheat sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
 * [Advance](Extramaterial/Advance.md)
 
 ##### Session 2:
