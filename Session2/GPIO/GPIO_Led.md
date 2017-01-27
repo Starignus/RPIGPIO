@@ -48,7 +48,7 @@ In the next table you will see which RPi's pins we are suing:
 We will use the **RPi.GPIO module** as the driving force behind our Python examples. These Python files and source is included with Raspbian, so assuming you are running the latest Linux distribution, you do not need to download anything to get started. Let's see an example:
 
 1. From your terminal in your laptop connect to your RPi.
-2. Create a folder call "code", then a file call "blinker.py":
+2. Create a folder with name "code", then create a file called "blinker.py":
 
 ```bash
 $ mkdir code
