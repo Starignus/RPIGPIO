@@ -39,9 +39,9 @@ Extra:
 
 ##### Session 3:
 
-* Battery and Motors
+* [Battery and Motors](Session3/Electronics.pdf)
 * Challenge: Build an idea (practice)
-* Where to go further? (IoT, Data Science, Robotics, Health Care)
+* [Where to go further? (IoT, Data Science, Robotics, Health Care)](Session3/Applications.pdf)
 
 ##### Optional material
 * [Backup RPi image operative system](Extramaterial/Advance.md)
